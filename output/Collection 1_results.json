@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-08-17T18:59:11.530372"
+  },
+  "extracted_sections": [
+    {
+      "rank": 1,
+      "distance": 1.2207742929458618,
+      "pdf": "South of France - Tips and Tricks.pdf",
+      "chunk_id": 5,
+      "content": "• \nActive Wear: If you plan on hiking or outdoor activities, pack activewear like leggings, \nshorts, and moisture-wicking tops. \n• \nSwimwear: Don't forget your swimsuit for beach or pool visits. \n• \nAccessories: A stylish yet functional bag, a lightweight scarf, and a versatile jacket. \n• \nAdditional Tips: Pack a few statement pieces that can be dressed up or down, such as \na versatile dress or a pair of stylish shoes. \nToiletries \n• \nBasic Toiletries: Toothbrush, toothpaste, shampoo, conditioner, body wash, \ndeodorant, and personal hygiene items. \n• \nSkincare: Sunscreen, moisturizer, and daily skincare products. \n• \nMakeup: Pack essentials in a travel-sized makeup bag. \n• \nAdditional Items: A small sewing kit, nail clippers, and a razor. \n• \nAdditional Tips: Consider packing a travel-sized perfume or cologne to freshen up on \nthe go. \nGadgets and Accessories \n• \nElectronics: Smartphone, charger, power bank, and other devices. Bring a travel \nadapter if needed. \n•",
+      "metadata": {
+        "source": "South of France - Tips and Tricks.pdf",
+        "chunk_id": 5
+      }
+    },
+    {
+      "rank": 2,
+      "distance": 1.2496013641357422,
+      "pdf": "South of France - Tips and Tricks.pdf",
+      "chunk_id": 12,
+      "content": "incorporating the tips and tricks provided, you'll be well-prepared for a comfortable and \nenjoyable trip. Remember to pack light, versatile clothing, and essential items to make the \nmost of your travel experience. Bon voyage!",
+      "metadata": {
+        "source": "South of France - Tips and Tricks.pdf",
+        "chunk_id": 12
+      }
+    },
+    {
+      "rank": 3,
+      "distance": 1.3455297946929932,
+      "pdf": "South of France - Tips and Tricks.pdf",
+      "chunk_id": 10,
+      "content": "• \nAdditional Tips: Use a money belt or hidden pouch to keep valuables safe. Consider \nusing public transportation to explore cities eﬃciently. \nWine Tours \n• \nComfortable Clothing: Wear comfortable, casual clothing suitable for walking and \nwine tasting. \n• \nNotebook: Bring a notebook to jot down notes about the wines you taste. \n• \nWater Bottle: Stay hydrated by drinking water between tastings. \n• \nAdditional Tips: Plan your wine tour route in advance and consider hiring a driver or \njoining a guided tour to avoid drinking and driving. \n \nTips and Tricks for Packing \n• \nCheck the Weather: Check the forecast before packing to ensure appropriate clothing. \n• \nMake a Packing List: Create a list to ensure nothing is forgotten. Cross oﬀ items as you \npack. \n• \nUse Packing Cubes: Organize clothes and maximize space. \n• \nRoll Your Clothes: Save space and reduce wrinkles. \n• \nPack Dual-Purpose Items: Choose items that serve multiple purposes. \n•",
+      "metadata": {
+        "source": "South of France - Tips and Tricks.pdf",
+        "chunk_id": 10
+      }
+    },
+    {
+      "rank": 4,
+      "distance": 1.3921253681182861,
+      "pdf": "South of France - Tips and Tricks.pdf",
+      "chunk_id": 6,
+      "content": "the go. \nGadgets and Accessories \n• \nElectronics: Smartphone, charger, power bank, and other devices. Bring a travel \nadapter if needed. \n• \nCamera: Capture memories with a camera, extra batteries, and memory cards. \n• \nBooks and Entertainment: A book, e-reader, or tablet for entertainment during \ntravel. \n• \nAdditional Tips: Download maps and travel guides to your devices for oﬄine use. \nConsider bringing a portable Wi-Fi hotspot for reliable internet access. \n \n \nPacking for Kids \nClothing \n• \nComfortable Wear: T-shirts, shorts, pants, dresses, pajamas, and underwear. \n• \nLayering: Depending on the season, pack sweaters, jackets, and hats. \n• \nSwimwear: Swimsuits and cover-ups for beach or pool days. \n• \nAccessories: A sun hat, sunglasses, and a lightweight jacket. \n• \nAdditional Tips: Pack extra clothing for kids, as they may need more changes of \nclothes than adults. \nEssentials \n• \nDiapers and Wipes: For babies or toddlers, pack enough diapers and wipes. \n•",
+      "metadata": {
+        "source": "South of France - Tips and Tricks.pdf",
+        "chunk_id": 6
+      }
+    },
+    {
+      "rank": 5,
+      "distance": 1.4071354866027832,
+      "pdf": "South of France - Tips and Tricks.pdf",
+      "chunk_id": 9,
+      "content": "snacks. Consider bringing a waterproof phone case to protect your device. \nHiking and Outdoor Activities \n• \nBackpack: A sturdy, comfortable backpack for essentials. \n• \nWater Bottle: A reusable water bottle. \n• \nFirst Aid Kit: A small kit with band-aids, antiseptic wipes, and medications. \n• \nInsect Repellent: Protect against bugs and mosquitoes. \n• \nAdditional Tips: Wear moisture-wicking clothing and sturdy hiking boots. Bring a map \nand compass or GPS device. Pack energy bars or snacks for long hikes. \nCity Exploration \n• \nDay Bag: A small, secure day bag for carrying essentials like water, snacks, and a \ncamera. \n• \nComfortable Shoes: Wear comfortable walking shoes for exploring cities. \n• \nGuidebook: A guidebook or map to help navigate and find points of interest. \n• \nAdditional Tips: Use a money belt or hidden pouch to keep valuables safe. Consider \nusing public transportation to explore cities eﬃciently. \nWine Tours \n•",
+      "metadata": {
+        "source": "South of France - Tips and Tricks.pdf",
+        "chunk_id": 9
+      }
+    }
+  ],
+  "subsection_analysis": []
+}
