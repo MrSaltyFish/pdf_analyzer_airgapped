@@ -41,8 +41,8 @@ def extract_text_from_pdf(pdf_path: Path) -> str:
 
 def chunk_text_recursive(text: str, metadata: dict) -> list[dict]:
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200,
+        chunk_size=500,
+        chunk_overlap=50,
         # separators=["\n\n", "\n", " ", ""]
         separators=["\n\n", "\n", ".", "!", "?", " ", ""]
     )

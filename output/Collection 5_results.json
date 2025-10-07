@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-09-12T15:53:08.538893"
+  },
+  "extracted_sections": [
+    {
+      "rank": 1,
+      "distance": 1.2475366592407227,
+      "pdf": "Learn Acrobat - Create and Convert_1.pdf",
+      "chunk_id": 42,
+      "content": "Send For Review. \n3. When the Identity Setup dialog box appears, enter the appropriate information \nabout yourself, and click Complete. \n4. Follow the directions in the wizard that appears, as described in Start an email-based \nreview. \n \nCreate a PDF and run an action \n1. Open the file in the application used to create it. \n2. Click the Convert To Adobe PDF And Run Action button on the Acrobat PDFMaker \ntoolbar, or (if available) choose Adobe PDF > Convert To Adobe PDF And Run Action.",
+      "metadata": {
+        "source": "Learn Acrobat - Create and Convert_1.pdf",
+        "chunk_id": 42
+      }
+    },
+    {
+      "rank": 2,
+      "distance": 1.3229597806930542,
+      "pdf": "Learn Acrobat - Request e-signatures_1.pdf",
+      "chunk_id": 14,
+      "content": "3. Add participants: \n1. List the participants required. \n• \nThe Sign action is assigned by default. \n• \nThe Sign action allows the participant to enter field data and sign the \nagreement. \n• \nUp to 50 participants are supported. \n• \nEach participant listed receives their own agreement.     \n2. Enter recipient email addresses followed by commas, or copy and paste a list of \nemail addresses into the Email field.",
+      "metadata": {
+        "source": "Learn Acrobat - Request e-signatures_1.pdf",
+        "chunk_id": 14
+      }
+    },
+    {
+      "rank": 3,
+      "distance": 1.3437790870666504,
+      "pdf": "Learn Acrobat - Fill and Sign.pdf",
+      "chunk_id": 0,
+      "content": "Fill and Sign PDF Forms \nYou can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types \nof PDF forms \n \nTypes of PDF forms  \n• \nInteractive forms: These contain fields that you can select and fill in. \n• \nFlat forms: These do not have interactive fields. It could be a paper form or PDF that \nhasn’t been optimized for form filling. The Fill & Sign tool automatically detects the",
+      "metadata": {
+        "source": "Learn Acrobat - Fill and Sign.pdf",
+        "chunk_id": 0
+      }
+    },
+    {
+      "rank": 4,
+      "distance": 1.3449113368988037,
+      "pdf": "Learn Acrobat - Request e-signatures_1.pdf",
+      "chunk_id": 6,
+      "content": "multiple signers. When you select a signer from the right pane and add fields in the \nform, the fields are assigned to the signer. That means those fields will be available to \nthe signer for filling the information and signing the form. \n \n• \nYou can switch the assignee of any field using the floating toolbar. The assigned colors \nto the signers make it easy to distinguish the fields for respective signers. \n \n• \nAdvanced mode for multiple signers",
+      "metadata": {
+        "source": "Learn Acrobat - Request e-signatures_1.pdf",
+        "chunk_id": 6
+      }
+    },
+    {
+      "rank": 5,
+      "distance": 1.3510382175445557,
+      "pdf": "Learn Acrobat - Fill and Sign.pdf",
+      "chunk_id": 1,
+      "content": "form fields like text fields, comb fields, checkboxes, and radio buttons. You can \nmanually add text and other symbols anywhere on the form using the Fill & Sign tool if \nrequired. \nYou can complete the forms by entering information and adding your signatures. Acrobat \nalso allows you to send your completed forms to others and securely save them in Adobe \ncloud storage. \n \nFill and sign PDF forms \nTo complete and sign PDF forms, open the form in Acrobat and then select E-Sign from the",
+      "metadata": {
+        "source": "Learn Acrobat - Fill and Sign.pdf",
+        "chunk_id": 1
+      }
+    }
+  ],
+  "subsection_analysis": []
+}
