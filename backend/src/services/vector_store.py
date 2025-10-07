@@ -1,12 +1,10 @@
 import faiss
 import numpy as np
 import pickle
-from pathlib import Path
 
-# Paths for FAISS index and metadata
-FAISS_DIR = Path(__file__).resolve().parent.parent / "vectorDB_data/FAISS_cache"
-FAISS_INDEX_PATH = FAISS_DIR / "vector_index.faiss"
-FAISS_METADATA_PATH = FAISS_DIR / "vector_metadata.pkl"
+from src.core.config import FAISS_INDEX_PATH, FAISS_METADATA_PATH
+from src.core.logger import get_logger
+logger = get_logger(__name__)
 
 # -------------------------------
 # Internal helpers
@@ -58,7 +56,7 @@ def save_embedded_document_in_faiss(embeddings: np.ndarray, metadatas: list, nor
     metadata_store.extend(metadatas)
 
     _save_faiss_index_and_metadata(index, metadata_store)
-    print(f"✅ Added {len(embeddings)} vectors. Total vectors: {index.ntotal}")
+    logger.debug(f"✅ Added {len(embeddings)} vectors. Total vectors: {index.ntotal}")
 
 def query_faiss(query_vector: list[float] | np.ndarray, top_k: int = 5, normalize: bool = True):
     """

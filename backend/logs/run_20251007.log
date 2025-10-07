@@ -1,0 +1,16 @@
+2025-10-07 11:27:41.571 [WARNING ] [__main__:92] - !!! Deleted old vector_index.faiss
+2025-10-07 11:27:41.575 [WARNING ] [__main__:92] - !!! Deleted old vector_metadata.pkl
+2025-10-07 11:27:41.576 [INFO    ] [__main__:94] - Running main()
+2025-10-07 11:27:41.577 [INFO    ] [src.services.model_agent:25] - ----- Loading embedding model...
+2025-10-07 11:27:41.579 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: ./models/all-MiniLM-L12-v2
+2025-10-07 11:27:41.580 [WARNING ] [sentence_transformers.SentenceTransformer:1171] - You try to use a model that was created with version 5.0.0, however, your version is 2.6.1. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+2025-10-07 11:27:41.751 [INFO    ] [sentence_transformers.SentenceTransformer:224] - 2 prompts are loaded, with the keys: ['query', 'document']
+2025-10-07 11:27:41.754 [INFO    ] [src.services.model_agent:33] - Embedding Model Dimensions: 384
+2025-10-07 11:27:41.756 [INFO    ] [src.services.model_agent:36] - ----- Loading LLM model...
+2025-10-07 11:27:42.227 [INFO    ] [src.services.model_agent:80] - ✓ User query set: "Persona: 'Travel Planner'. Task: 'Plan a trip of 4 days for a group of 10 college friends.'"
+2025-10-07 11:27:42.230 [INFO    ] [src.services.model_agent:81] - → Query vector shape: torch.Size([384])
+2025-10-07 11:27:47.121 [INFO    ] [src.services.model_agent:80] - ✓ User query set: "Persona: 'HR professional'. Task: 'Create and manage fillable forms for onboarding and compliance.'"
+2025-10-07 11:27:47.123 [INFO    ] [src.services.model_agent:81] - → Query vector shape: torch.Size([384])

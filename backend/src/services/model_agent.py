@@ -1,17 +1,14 @@
 # models.py
-from sentence_transformers import SentenceTransformer
-from llama_cpp import Llama
-from typing import List
-
-from sklearn.metrics.pairwise import cosine_similarity
-from typing import List, Dict, Any
-from collections import defaultdict
-from .faiss_vectorDB import query_faiss
-
 import numpy as np
 
+from sentence_transformers import SentenceTransformer
+from llama_cpp import Llama
 
-VERBOSE = True
+from typing import List
+from .vector_store import query_faiss
+from src.core.logger import get_logger
+
+logger = get_logger(__name__)
 
 class ModelAgent:
     _embedding_model = None
@@ -25,19 +22,18 @@ class ModelAgent:
     @classmethod
     def initialize(cls):
         if cls._embedding_model is None:
-            if(VERBOSE):
-                print("----- Loading embedding model...")
+            logger.info("----- Loading embedding model...")
+            
             cls._embedding_model = SentenceTransformer(
                 "./models/all-MiniLM-L12-v2", device='cpu'
             )
             cls._embedding_model.max_seq_length = 256
             cls._embedding_model_dimension = cls._embedding_model.get_sentence_embedding_dimension()
 
-            if(VERBOSE):
-                print("Embedding Model Dimensions: ", cls._embedding_model_dimension)
+            logger.info(f"Embedding Model Dimensions: {cls._embedding_model_dimension}")
 
         if cls._llm_model is None:
-            print("----- Loading LLM model...")
+            logger.info("----- Loading LLM model...")
             cls._llm_model = Llama(
                 model_path="./models/tinyllama-1.1b-chat-v1.0.Q6_K.gguf",
                 n_ctx=2048,
@@ -81,12 +77,12 @@ class ModelAgent:
 
         combined_query = f"Persona: {persona}. Task: {job}"
         cls._user_query_embedding = cls._embedding_model.encode(combined_query, convert_to_tensor=True)
-        print(f"✓ User query set: \"{combined_query}\"")
-        print(f"→ Query vector shape: {cls._user_query_embedding.shape}")
+        logger.info(f"✓ User query set: \"{combined_query}\"")
+        logger.info(f"→ Query vector shape: {cls._user_query_embedding.shape}")
 
     @classmethod
     def get_user_query_vector(cls):
-        print("!> User Job-to-do Vector: ", cls._user_query_embedding)
+        logger.info(f"!> User Job-to-do Vector: {cls._user_query_embedding}")
         return cls._user_query_embedding
     
     @classmethod
@@ -107,10 +103,9 @@ class ModelAgent:
         query_vec = np.array(cls._user_query_embedding, dtype="float32")
         results = query_faiss(query_vec, top_k=top_k)
 
-        if VERBOSE:
-            for r in results:
-                print(f"[{r['rank']}] {r['pdf']} (chunk {r['chunk_id']}) → {r['distance']:.4f}")
-                print(r["content"])
-                print("----")
+        # for r in results:
+        #     logger.info(f"[{r['rank']}] {r['pdf']} (chunk {r['chunk_id']}) → {r['distance']:.4f}")
+        #     logger.info(r["content"])
+        #     logger.info("----")
 
         return results
