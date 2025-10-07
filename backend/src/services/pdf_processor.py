@@ -4,8 +4,8 @@ import numpy as np
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-from .model_agent import ModelAgent
-from ..utils.json_object import write_object_as_json
+from src.agents.model_agent import ModelAgent
+from src.utils.json_object import write_object_as_json
 from .vector_store import save_embedded_document_in_faiss
 
 from src.core.logger import get_logger

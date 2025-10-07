@@ -5,6 +5,8 @@ class JSONObject:
     def __init__(self, data: Any):
         if isinstance(data, dict):
             for key, value in data.items():
+                if key.startswith("_"):
+                    key = f"_{key}"  # prevent shadowing of internal vars
                 setattr(self, key, JSONObject(value))
         elif isinstance(data, list):
             self._list = [JSONObject(item) for item in data]
@@ -38,14 +40,17 @@ class JSONObject:
             return [item.to_dict() for item in self._list]
         if hasattr(self, "_value"):
             return self._value
-        return {key: value.to_dict() for key, value in self.__dict__.items()}
+        return {k: v.to_dict() if isinstance(v, JSONObject) else v for k, v in self.__dict__.items()}
     
     def get(self, key, default=None):
         return getattr(self, key, default)
 
     def __contains__(self, key):
         return key in self.__dict__
-
+    
+    @classmethod
+    def from_dict(cls, data: dict):
+        return cls(data)
 
 def load_json_as_object(filepath: str) -> JSONObject:
     with open(filepath, "r", encoding="utf-8") as f:

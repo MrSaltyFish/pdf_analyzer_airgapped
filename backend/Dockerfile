@@ -1,4 +1,6 @@
 FROM python:3.10-slim
+# TODO: create a new Dockerfile for the FastAPI thing
+
 
 # Set working directory
 WORKDIR /app
@@ -9,8 +11,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Download model using a temp Python script during build
 RUN python -c "\
-from sentence_transformers import SentenceTransformer; \
-SentenceTransformer('all-MiniLM-L12-v2').save('/models/all-MiniLM-L12-v2')"
+    from sentence_transformers import SentenceTransformer; \
+    SentenceTransformer('all-MiniLM-L12-v2').save('/models/all-MiniLM-L12-v2')"
 
 # Copy your app code
 COPY . .

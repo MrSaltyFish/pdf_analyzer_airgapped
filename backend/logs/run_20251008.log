@@ -1,0 +1,8 @@
+2025-10-08 00:14:57.220 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-08 00:14:57.240 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-08 00:15:27.191 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-08 00:15:27.210 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-08 00:15:27.546 [WARNING ] [__main__:81] - !!! Deleted old vector_index.faiss
+2025-10-08 00:15:27.548 [WARNING ] [__main__:81] - !!! Deleted old vector_metadata.pkl
+2025-10-08 00:15:27.548 [INFO    ] [__main__:83] - Running main()
+2025-10-08 00:15:27.549 [INFO    ] [__main__:38] - Initializing models...
