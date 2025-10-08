@@ -14,8 +14,8 @@ _lock = Lock()
 class ModelAgent:
     """Coordinates LLM + Embedding models for user queries."""
     _instance = None
+    _initialized = False
 
-    
     def __init__(self):
         self.embedding_agent = EmbeddingAgent()
         self.llm_agent = LLMAgent()
@@ -28,6 +28,24 @@ class ModelAgent:
             if cls._instance is None:
                 cls._instance = cls()
             return cls._instance
+
+    @classmethod
+    def initialize(cls):
+        """Initialize the model agent and load required models."""
+        if cls._initialized:
+            return
+        
+        try:
+            logger.info("Initializing ModelAgent...")
+            
+            # TODO: Add actual model initialization logic here
+
+            # Set initialized flag
+            cls._initialized = True
+            logger.info("ModelAgent initialized successfully")
+        except Exception as e:
+            logger.error(f"Failed to initialize ModelAgent: {str(e)}")
+            raise
 
     # --- Query logic ---
     def set_user_query(self, persona: str, job: str):

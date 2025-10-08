@@ -6,3 +6,323 @@
 2025-10-08 00:15:27.548 [WARNING ] [__main__:81] - !!! Deleted old vector_metadata.pkl
 2025-10-08 00:15:27.548 [INFO    ] [__main__:83] - Running main()
 2025-10-08 00:15:27.549 [INFO    ] [__main__:38] - Initializing models...
+2025-10-08 19:54:03.884 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 19:54:04.790 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 19:54:07.336 [INFO    ] [__main__:78] - Running main()
+2025-10-08 19:54:07.338 [INFO    ] [__main__:38] - Initializing models...
+2025-10-08 19:54:07.339 [INFO    ] [src.agents.embedding_agent:12] - Loading embedding model from: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\all-MiniLM-L12-v2
+2025-10-08 19:54:07.341 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\all-MiniLM-L12-v2
+2025-10-08 19:55:32.231 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 19:55:32.254 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 19:55:32.803 [INFO    ] [__main__:78] - Running main()
+2025-10-08 19:55:32.804 [INFO    ] [__main__:38] - Initializing models...
+2025-10-08 19:55:32.807 [INFO    ] [src.agents.embedding_agent:12] - Loading embedding model from: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\all-MiniLM-L12-v2
+2025-10-08 19:55:32.808 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\all-MiniLM-L12-v2
+2025-10-08 19:55:32.819 [WARNING ] [sentence_transformers.SentenceTransformer:1171] - You try to use a model that was created with version 5.0.0, however, your version is 2.6.1. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+2025-10-08 19:55:33.088 [INFO    ] [sentence_transformers.SentenceTransformer:224] - 2 prompts are loaded, with the keys: ['query', 'document']
+2025-10-08 19:55:33.090 [INFO    ] [src.agents.embedding_agent:16] - Embedding model loaded (384 dims, device=cpu)
+2025-10-08 19:55:33.091 [INFO    ] [src.agents.llm_agent:11] - |> Loading LLM model from: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\tinyllama-1.1b-chat-v1.0.Q6_K.gguf
+2025-10-08 20:01:43.132 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:01:43.151 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:01:43.662 [INFO    ] [__main__:78] - Running main()
+2025-10-08 20:01:43.664 [INFO    ] [__main__:38] - Initializing models...
+2025-10-08 20:01:43.665 [INFO    ] [src.agents.embedding_agent:12] - Loading embedding model from: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\all-MiniLM-L12-v2
+2025-10-08 20:01:43.667 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\all-MiniLM-L12-v2
+2025-10-08 20:01:43.668 [WARNING ] [sentence_transformers.SentenceTransformer:1171] - You try to use a model that was created with version 5.0.0, however, your version is 2.6.1. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+2025-10-08 20:01:43.857 [INFO    ] [sentence_transformers.SentenceTransformer:224] - 2 prompts are loaded, with the keys: ['query', 'document']
+2025-10-08 20:01:43.859 [INFO    ] [src.agents.embedding_agent:16] - Embedding model loaded (384 dims, device=cpu)
+2025-10-08 20:01:43.860 [INFO    ] [src.agents.llm_agent:11] - |> Loading LLM model from: C:\Users\jadit\Desktop\SIT\SEM-7\aiml\AimlprojectSem7\pdf_analyzer_airgapped\backend\models\tinyllama-1.1b-chat-v1.0.Q6_K.gguf
+2025-10-08 20:01:44.078 [INFO    ] [src.agents.llm_agent:18] - |> LLM model initialized successfully.
+2025-10-08 20:05:07.337 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:05:07.464 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:09:09.665 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:09:09.793 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:11:17.334 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:11:17.473 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:11:23.691 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:11:23.828 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:11:29.951 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:11:30.078 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:11:54.579 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:11:54.708 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:12:16.368 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:12:16.505 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:13:06.060 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:13:06.186 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:13:31.348 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:13:31.489 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:14:18.658 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:14:18.790 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:14:18.805 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:14:18.807 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:14:18.809 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:14:50.540 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:14:50.671 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:14:50.684 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:14:50.685 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:14:50.686 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:31:50.732 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:31:50.874 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:31:50.890 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:31:50.891 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:31:50.893 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:35:33.042 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:35:33.230 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:35:33.265 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:35:33.267 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:35:33.268 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:40:21.033 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:40:21.180 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:40:28.454 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:40:28.594 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:40:35.855 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:40:35.996 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:40:36.005 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:40:38.956 [WARNING ] [huggingface_hub.file_download:1732] - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-08 20:40:47.812 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:40:54.002 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:40:54.139 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:40:54.148 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:40:57.306 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:41:25.316 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:41:25.444 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:41:25.452 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:41:28.315 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:41:28.705 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:41:30.901 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:41:30.908 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:41:30.910 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:41:30.911 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:43:47.827 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:43:48.004 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:43:48.015 [INFO    ] [src.services.vector_store:112] - Initializing VectorStore...
+2025-10-08 20:43:48.017 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:43:50.691 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:43:50.693 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:43:51.139 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:43:51.141 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:43:51.142 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:43:59.895 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:44:00.051 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:44:00.060 [INFO    ] [src.services.vector_store:112] - Initializing VectorStore...
+2025-10-08 20:44:00.062 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:44:02.672 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:44:02.676 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:44:03.100 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:44:03.102 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:44:03.103 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:44:56.324 [INFO    ] [src.services.vector_store:141] - Document South of France - Cities.pdf processed successfully
+2025-10-08 20:50:02.062 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:50:02.229 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:50:02.644 [INFO    ] [src.services.vector_store:112] - Initializing VectorStore...
+2025-10-08 20:50:02.645 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:50:05.276 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:50:05.279 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:50:05.286 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:50:05.287 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:50:05.289 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:50:25.819 [INFO    ] [src.services.vector_store:141] - Document South of France - Cities.pdf processed successfully
+2025-10-08 20:50:40.105 [INFO    ] [src.api.routes.routes_query:17] - Received query: what are the cities in france
+2025-10-08 20:50:40.118 [ERROR   ] [src.api.routes.routes_query:51] - Query error: FAISS index or metadata not found.
+2025-10-08 20:53:12.551 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:53:12.697 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:53:12.721 [INFO    ] [src.services.vector_store:112] - Initializing VectorStore...
+2025-10-08 20:53:12.723 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:53:17.038 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:53:17.041 [INFO    ] [src.services.vector_store:115] - VectorStore initialized successfully
+2025-10-08 20:53:17.426 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:53:17.428 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:53:17.429 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:53:23.901 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:53:24.038 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:53:24.047 [INFO    ] [src.services.vector_store:112] - Initializing VectorStore...
+2025-10-08 20:53:24.048 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:53:27.169 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:53:27.171 [INFO    ] [src.services.vector_store:115] - VectorStore initialized successfully
+2025-10-08 20:53:27.551 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:53:27.552 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:53:27.554 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:53:33.971 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:53:34.110 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:53:34.118 [INFO    ] [src.services.vector_store:112] - Initializing VectorStore...
+2025-10-08 20:53:34.120 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:53:37.228 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:53:37.231 [INFO    ] [src.services.vector_store:115] - VectorStore initialized successfully
+2025-10-08 20:53:37.602 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:53:37.603 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:53:37.604 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:53:43.213 [INFO    ] [src.api.routes.routes_query:18] - Received query: what are the cities in france
+2025-10-08 20:53:43.239 [ERROR   ] [src.api.routes.routes_query:55] - Query error: 400: No processed documents found. Please upload and process a document first.
+2025-10-08 20:54:21.974 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:54:22.103 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:54:22.113 [INFO    ] [src.services.vector_store:112] - Initializing VectorStore...
+2025-10-08 20:54:22.126 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:54:25.159 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:54:25.162 [INFO    ] [src.services.vector_store:115] - VectorStore initialized successfully
+2025-10-08 20:54:25.538 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:54:25.539 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:54:25.541 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:55:17.559 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:55:17.698 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:55:17.707 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 20:55:17.708 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:55:20.356 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:55:20.360 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:55:20.757 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:55:20.758 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:55:20.760 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:55:27.454 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:55:27.588 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:55:27.598 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 20:55:27.600 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:55:30.624 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:55:30.628 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:55:31.009 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:55:31.011 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:55:31.011 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:55:45.740 [INFO    ] [src.services.vector_store:125] - Processing document: South of France - Cities.pdf (ID: a5ccb2dd-5a7b-455c-8a70-90bb6950413c)
+2025-10-08 20:55:46.234 [INFO    ] [src.services.vector_store:156] - Document South of France - Cities.pdf processed successfully
+2025-10-08 20:57:04.088 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:57:04.229 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:57:04.238 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 20:57:04.239 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:57:06.872 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:57:06.875 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:57:07.270 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:57:07.271 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:57:07.273 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:57:13.601 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:57:13.751 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:57:13.759 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 20:57:13.760 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:57:16.467 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:57:16.470 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:57:16.851 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:57:16.853 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:57:16.855 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:57:23.939 [ERROR   ] [src.api.routes.routes_docs:39] - Upload failed: name 'tempfile' is not defined
+2025-10-08 20:59:47.856 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:59:47.993 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:59:48.016 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 20:59:48.018 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 20:59:51.505 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 20:59:51.508 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 20:59:52.042 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 20:59:52.044 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 20:59:52.045 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 20:59:59.090 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 20:59:59.227 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 20:59:59.236 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 20:59:59.237 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 21:00:02.737 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:00:02.740 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 21:00:03.128 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:00:03.130 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:00:03.131 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:00:09.383 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:00:09.518 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:00:09.527 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 21:00:09.528 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 21:00:12.714 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:00:12.717 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 21:00:13.099 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:00:13.101 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:00:13.102 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:03:50.437 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:03:50.592 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:03:50.603 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 21:03:50.605 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 21:03:53.487 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:03:53.495 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 21:03:54.305 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:03:54.307 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:03:54.308 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:05:53.589 [ERROR   ] [src.api.routes.routes_docs:43] - Upload failed: Error processing PDF: 
+2025-10-08 21:06:29.141 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:06:29.312 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:06:29.325 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 21:06:29.328 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 21:06:32.136 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:06:32.140 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 21:06:32.668 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:06:32.669 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:06:32.671 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:13:42.561 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:13:42.835 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:13:42.847 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 21:13:42.849 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 21:13:45.802 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:13:45.806 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 21:13:46.478 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:13:46.479 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:13:46.480 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:19:11.928 [ERROR   ] [src.api.routes.routes_docs:43] - Upload failed: Error processing PDF: 
+2025-10-08 21:24:58.944 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:24:59.220 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:24:59.231 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 21:24:59.232 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 21:25:02.190 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:25:02.194 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 21:25:03.128 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:25:03.130 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:25:03.132 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:26:08.258 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:26:08.404 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:26:08.414 [INFO    ] [src.services.vector_store:113] - Initializing VectorStore...
+2025-10-08 21:26:08.416 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L6-v2
+2025-10-08 21:26:11.510 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:26:11.513 [INFO    ] [src.services.vector_store:119] - VectorStore initialized successfully
+2025-10-08 21:26:12.004 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:26:12.006 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:26:12.007 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:30:18.028 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:30:18.192 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:30:18.202 [INFO    ] [src.services.vector_store:117] - Initializing VectorStore...
+2025-10-08 21:30:18.203 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-08 21:30:20.697 [WARNING ] [huggingface_hub.file_download:1732] - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-08 21:30:28.023 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:30:28.027 [INFO    ] [src.services.vector_store:124] - VectorStore initialized successfully
+2025-10-08 21:30:28.574 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:30:28.576 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:30:28.577 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:31:42.419 [INFO    ] [src.services.vector_store:147] - Processing document: South of France - Cities.pdf (ID: 5d17812f-9ff7-4fef-bca1-e3a7e52eeeda)
+2025-10-08 21:31:43.264 [INFO    ] [src.services.vector_store:183] - Document South of France - Cities.pdf processed successfully
+2025-10-08 21:31:48.979 [INFO    ] [src.api.routes.routes_query:18] - Processing query: what are the cities in france
+2025-10-08 21:31:48.993 [ERROR   ] [src.api.routes.routes_query:52] - Query processing error: 'VectorStore' object has no attribute 'query_faiss'
+2025-10-08 21:34:26.617 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:34:26.872 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:34:26.894 [INFO    ] [src.services.vector_store:117] - Initializing VectorStore...
+2025-10-08 21:34:26.895 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-08 21:34:31.391 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:34:31.394 [INFO    ] [src.services.vector_store:124] - VectorStore initialized successfully
+2025-10-08 21:34:31.984 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:34:31.986 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:34:31.987 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:34:38.680 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:34:38.816 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:34:38.824 [INFO    ] [src.services.vector_store:117] - Initializing VectorStore...
+2025-10-08 21:34:38.825 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-08 21:34:41.490 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:34:41.492 [INFO    ] [src.services.vector_store:124] - VectorStore initialized successfully
+2025-10-08 21:34:41.874 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:34:41.876 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:34:41.878 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:34:49.007 [INFO    ] [src.services.vector_store:147] - Processing document: South of France - Cities.pdf (ID: f10e7f79-7faa-4ef9-b176-8af3319cdcbf)
+2025-10-08 21:34:49.819 [INFO    ] [src.services.vector_store:183] - Document South of France - Cities.pdf processed successfully
+2025-10-08 21:34:55.045 [INFO    ] [src.api.routes.routes_query:18] - Processing query: what are the cities in france
+2025-10-08 21:39:33.339 [INFO    ] [faiss.loader:131] - Loading faiss with AVX2 support.
+2025-10-08 21:39:33.479 [INFO    ] [faiss.loader:133] - Successfully loaded faiss with AVX2 support.
+2025-10-08 21:39:33.490 [INFO    ] [src.services.vector_store:117] - Initializing VectorStore...
+2025-10-08 21:39:33.492 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-08 21:39:36.108 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cpu
+2025-10-08 21:39:36.110 [INFO    ] [src.services.vector_store:124] - VectorStore initialized successfully
+2025-10-08 21:39:36.515 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-08 21:39:36.516 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-08 21:39:36.518 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
+2025-10-08 21:39:42.065 [INFO    ] [src.api.routes.routes_query:18] - Processing query: what are the cities in france

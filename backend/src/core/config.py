@@ -38,3 +38,12 @@ TOP_K_RESULTS = 5
 
 # TODO: modify below settings to support .env
 CLEAR_OLD_FAISS = True
+
+# Base paths
+BASE_DIR = Path(__file__).parent.parent.parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
+
+# FAISS storage
+FAISS_INDEX_PATH = DATA_DIR / "faiss.index"
+FAISS_METADATA_PATH = DATA_DIR / "faiss_metadata.pkl"

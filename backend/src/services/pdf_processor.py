@@ -1,6 +1,10 @@
 from pathlib import Path
 import fitz
 import numpy as np
+import PyPDF2
+from typing import Dict, List
+import hashlib
+import re
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
@@ -78,3 +82,56 @@ def save_embedded_document_in_json(pdf_path: Path, embedded_chunks: list[dict]):
     logger.debug(f">>>> Saved embeddings to: {output_path}")
 
     return output
+
+class PDFProcessor:
+    MAX_CHUNK_SIZE = 500  # Maximum characters per chunk
+    MAX_CHUNKS = 500      # Maximum number of chunks to process
+    
+    def process_pdf(self, file_path: str) -> Dict:
+        try:
+            chunks = []
+            with open(file_path, 'rb') as file:
+                reader = PyPDF2.PdfReader(file)
+                
+                # Process pages until we hit max chunks
+                for page in reader.pages:
+                    if len(chunks) >= self.MAX_CHUNKS:
+                        break
+                        
+                    text = page.extract_text()
+                    page_chunks = self._create_chunks(text)
+                    chunks.extend(page_chunks)
+                    
+                    # Check chunk limit
+                    if len(chunks) > self.MAX_CHUNKS:
+                        chunks = chunks[:self.MAX_CHUNKS]
+                        break
+
+            return {
+                "chunks": chunks
+            }
+                
+        except Exception as e:
+            raise Exception(f"Error processing PDF: {str(e)}")
+
+    def _create_chunks(self, text: str) -> List[str]:
+        """Create smaller, memory-efficient chunks."""
+        chunks = []
+        current_chunk = []
+        current_size = 0
+        
+        for sentence in text.split('.'):
+            sentence = sentence.strip() + '.'
+            if current_size + len(sentence) > self.MAX_CHUNK_SIZE:
+                if current_chunk:
+                    chunks.append(' '.join(current_chunk))
+                current_chunk = [sentence]
+                current_size = len(sentence)
+            else:
+                current_chunk.append(sentence)
+                current_size += len(sentence)
+                
+        if current_chunk:
+            chunks.append(' '.join(current_chunk))
+            
+        return chunks
