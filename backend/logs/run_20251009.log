@@ -1,0 +1,15 @@
+2025-10-09 11:34:14.776 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-09 11:34:14.822 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-09 11:34:14.830 [INFO    ] [src.services.vector_store:117] - Initializing VectorStore...
+2025-10-09 11:34:14.834 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-09 11:35:04.743 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-09 11:35:04.913 [INFO    ] [src.services.vector_store:124] - VectorStore initialized successfully
+2025-10-09 11:35:36.423 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-09 11:35:36.449 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-09 11:35:36.455 [INFO    ] [src.services.vector_store:117] - Initializing VectorStore...
+2025-10-09 11:35:36.458 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-09 11:35:48.251 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-09 11:35:48.437 [INFO    ] [src.services.vector_store:124] - VectorStore initialized successfully
+2025-10-09 11:35:48.859 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-09 11:35:48.860 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-09 11:35:48.862 [INFO    ] [src.api.main:28] - |> All models initialized and ready.
