@@ -1,4 +1,3 @@
-shared/huggingFaceModels
+shared/**
 **/__pycache__/
 *.pyc
-rag-service/input/*

@@ -1,0 +1,182 @@
+2025-10-30 02:17:24.380 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-30 02:17:24.400 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-30 02:17:24.404 [INFO    ] [src.services.vector_store:118] - Initializing VectorStore...
+2025-10-30 02:17:24.406 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-30 02:17:24.409 [DEBUG   ] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): huggingface.co:443
+2025-10-30 02:17:24.814 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:17:24.854 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:17:25.112 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-10-30 02:17:25.147 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-10-30 02:17:25.419 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-30 02:17:25.456 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/README.md HTTP/1.1" 200 0
+2025-10-30 02:17:25.726 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:17:25.756 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:17:25.979 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-10-30 02:17:26.016 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/sentence_bert_config.json HTTP/1.1" 200 0
+2025-10-30 02:17:26.255 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-30 02:17:26.290 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config.json HTTP/1.1" 200 0
+2025-10-30 02:17:26.656 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-30 02:17:26.697 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-30 02:17:26.954 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-30 02:17:27.207 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 4981
+2025-10-30 02:17:27.381 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-30 02:17:27.537 [INFO    ] [src.services.vector_store:125] - VectorStore initialized successfully
+2025-10-30 02:17:27.861 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-30 02:17:27.862 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-30 02:17:27.863 [INFO    ] [src.api.main:26] - |> All models initialized and ready.
+2025-10-30 02:20:15.116 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-30 02:20:15.135 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-30 02:20:15.142 [INFO    ] [src.services.vector_store:118] - Initializing VectorStore...
+2025-10-30 02:20:15.144 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-30 02:20:15.149 [DEBUG   ] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): huggingface.co:443
+2025-10-30 02:20:15.447 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:20:15.477 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:20:15.805 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-10-30 02:20:15.831 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-10-30 02:20:16.336 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-30 02:20:16.363 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/README.md HTTP/1.1" 200 0
+2025-10-30 02:20:16.626 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:20:16.652 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:20:16.932 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-10-30 02:20:16.962 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/sentence_bert_config.json HTTP/1.1" 200 0
+2025-10-30 02:20:17.191 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-30 02:20:17.288 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config.json HTTP/1.1" 200 0
+2025-10-30 02:20:17.651 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-30 02:20:17.681 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-30 02:20:17.957 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-30 02:20:18.228 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 4981
+2025-10-30 02:20:18.247 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-30 02:20:18.393 [INFO    ] [src.services.vector_store:125] - VectorStore initialized successfully
+2025-10-30 02:20:18.728 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-30 02:20:18.729 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-30 02:20:18.730 [INFO    ] [src.api.main:26] - |> All models initialized and ready.
+2025-10-30 02:24:53.856 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-30 02:24:53.875 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-30 02:24:53.880 [INFO    ] [src.services.vector_store:118] - Initializing VectorStore...
+2025-10-30 02:24:53.881 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-30 02:24:53.885 [DEBUG   ] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): huggingface.co:443
+2025-10-30 02:24:54.217 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:24:54.251 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:24:54.532 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-10-30 02:24:54.571 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-10-30 02:24:54.837 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-30 02:24:54.871 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/README.md HTTP/1.1" 200 0
+2025-10-30 02:24:55.146 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:24:55.182 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:24:55.454 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-10-30 02:24:55.502 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/sentence_bert_config.json HTTP/1.1" 200 0
+2025-10-30 02:24:55.760 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-30 02:24:55.801 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config.json HTTP/1.1" 200 0
+2025-10-30 02:24:56.178 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-30 02:24:56.219 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-30 02:24:56.477 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-30 02:24:56.792 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 4981
+2025-10-30 02:24:56.917 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-30 02:24:57.053 [INFO    ] [src.services.vector_store:125] - VectorStore initialized successfully
+2025-10-30 02:24:57.372 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-30 02:24:57.373 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-30 02:24:57.375 [INFO    ] [src.api.main:26] - |> All models initialized and ready.
+2025-10-30 02:29:20.172 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-30 02:29:20.192 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-30 02:29:20.196 [INFO    ] [src.services.vector_store:118] - Initializing VectorStore...
+2025-10-30 02:29:20.198 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-30 02:29:20.201 [DEBUG   ] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): huggingface.co:443
+2025-10-30 02:29:20.583 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:29:20.607 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:29:20.824 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-10-30 02:29:20.874 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-10-30 02:29:21.105 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-30 02:29:21.130 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/README.md HTTP/1.1" 200 0
+2025-10-30 02:29:21.490 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:29:21.520 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:29:21.757 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-10-30 02:29:21.789 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/sentence_bert_config.json HTTP/1.1" 200 0
+2025-10-30 02:29:22.103 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-30 02:29:22.130 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config.json HTTP/1.1" 200 0
+2025-10-30 02:29:22.413 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-30 02:29:22.438 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-30 02:29:22.721 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-30 02:29:23.023 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 4981
+2025-10-30 02:29:23.182 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-30 02:29:23.337 [INFO    ] [src.services.vector_store:125] - VectorStore initialized successfully
+2025-10-30 02:29:23.696 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-30 02:29:23.698 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-30 02:29:23.699 [INFO    ] [src.api.main:26] - |> All models initialized and ready.
+2025-10-30 02:29:47.030 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-30 02:29:47.049 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-30 02:29:47.053 [INFO    ] [src.services.vector_store:118] - Initializing VectorStore...
+2025-10-30 02:29:47.054 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-30 02:29:47.057 [DEBUG   ] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): huggingface.co:443
+2025-10-30 02:29:47.364 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:29:47.401 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:29:47.707 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-10-30 02:29:47.741 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-10-30 02:29:47.971 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-30 02:29:48.001 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/README.md HTTP/1.1" 200 0
+2025-10-30 02:29:48.316 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:29:48.346 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:29:48.623 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-10-30 02:29:48.660 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/sentence_bert_config.json HTTP/1.1" 200 0
+2025-10-30 02:29:48.930 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-30 02:29:48.961 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config.json HTTP/1.1" 200 0
+2025-10-30 02:29:49.340 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-30 02:29:49.367 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-30 02:29:49.646 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-30 02:29:49.954 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 4981
+2025-10-30 02:29:50.024 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-30 02:29:50.149 [INFO    ] [src.services.vector_store:125] - VectorStore initialized successfully
+2025-10-30 02:29:50.522 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-30 02:29:50.524 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-30 02:29:50.525 [INFO    ] [src.api.main:26] - |> All models initialized and ready.
+2025-10-30 02:29:56.507 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-30 02:29:56.526 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-30 02:29:56.531 [INFO    ] [src.services.vector_store:118] - Initializing VectorStore...
+2025-10-30 02:29:56.532 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-30 02:29:56.536 [DEBUG   ] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): huggingface.co:443
+2025-10-30 02:29:56.917 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:29:56.941 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:29:57.224 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-10-30 02:29:57.251 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-10-30 02:29:57.535 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-30 02:29:57.561 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/README.md HTTP/1.1" 200 0
+2025-10-30 02:29:57.838 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:29:57.865 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:29:58.093 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-10-30 02:29:58.119 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/sentence_bert_config.json HTTP/1.1" 200 0
+2025-10-30 02:29:58.351 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-30 02:29:58.375 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config.json HTTP/1.1" 200 0
+2025-10-30 02:29:58.761 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-30 02:29:58.785 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-30 02:29:59.008 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-30 02:29:59.272 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 4981
+2025-10-30 02:29:59.408 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-30 02:29:59.544 [INFO    ] [src.services.vector_store:125] - VectorStore initialized successfully
+2025-10-30 02:29:59.836 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-30 02:29:59.838 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-30 02:29:59.838 [INFO    ] [src.api.main:26] - |> All models initialized and ready.
+2025-10-30 02:30:02.848 [INFO    ] [faiss.loader:54] - Loading faiss with AVX2 support.
+2025-10-30 02:30:02.869 [INFO    ] [faiss.loader:56] - Successfully loaded faiss with AVX2 support.
+2025-10-30 02:30:02.873 [INFO    ] [src.services.vector_store:118] - Initializing VectorStore...
+2025-10-30 02:30:02.875 [INFO    ] [sentence_transformers.SentenceTransformer:107] - Load pretrained SentenceTransformer: paraphrase-MiniLM-L3-v2
+2025-10-30 02:30:02.880 [DEBUG   ] [urllib3.connectionpool:1049] - Starting new HTTPS connection (1): huggingface.co:443
+2025-10-30 02:30:03.212 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:30:03.245 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:30:03.576 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-10-30 02:30:03.608 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-10-30 02:30:03.834 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-10-30 02:30:03.868 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/README.md HTTP/1.1" 200 0
+2025-10-30 02:30:04.095 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-10-30 02:30:04.128 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/modules.json HTTP/1.1" 200 0
+2025-10-30 02:30:04.394 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-10-30 02:30:04.424 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/sentence_bert_config.json HTTP/1.1" 200 0
+2025-10-30 02:30:04.701 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-10-30 02:30:04.733 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/config.json HTTP/1.1" 200 0
+2025-10-30 02:30:05.112 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /sentence-transformers/paraphrase-MiniLM-L3-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-10-30 02:30:05.151 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/paraphrase-MiniLM-L3-v2/4ca70771034acceecb2e72475f72050fcdde4ddc/tokenizer_config.json HTTP/1.1" 200 0
+2025-10-30 02:30:05.420 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-10-30 02:30:05.726 [DEBUG   ] [urllib3.connectionpool:544] - https://huggingface.co:443 "GET /api/models/sentence-transformers/paraphrase-MiniLM-L3-v2/revision/main HTTP/1.1" 200 4981
+2025-10-30 02:30:05.859 [INFO    ] [sentence_transformers.SentenceTransformer:213] - Use pytorch device_name: cuda
+2025-10-30 02:30:06.000 [INFO    ] [src.services.vector_store:125] - VectorStore initialized successfully
+2025-10-30 02:30:06.296 [INFO    ] [src.agents.model_agent:39] - Initializing ModelAgent...
+2025-10-30 02:30:06.297 [INFO    ] [src.agents.model_agent:45] - ModelAgent initialized successfully
+2025-10-30 02:30:06.298 [INFO    ] [src.api.main:26] - |> All models initialized and ready.
