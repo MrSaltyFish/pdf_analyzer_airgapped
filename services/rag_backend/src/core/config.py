@@ -9,7 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_DIR = PROJECT_ROOT / "input"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 MODELS_DIR = PROJECT_ROOT / "models"
-
+UPLOAD_DIR = PROJECT_ROOT.parents[1] / "shared" / "uploads"
 # Logging configs
 LOG_DIR = PROJECT_ROOT / "logs"
 LOG_LEVEL = "DEBUG" if VERBOSE else "INFO"
@@ -43,4 +43,4 @@ BASE_DIR = Path(__file__).parent.parent.parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-MISTRAL_BACKEND_URL="http://localhost:8001"
+MISTRAL_BACKEND_URL="http://localhost:8001/api/v1"

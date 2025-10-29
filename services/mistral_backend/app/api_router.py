@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 from app.endpoints import chat, batch, admin
 
-api_router = APIRouter()
+api_router = APIRouter(prefix="/api/v1")
 
 # Include all endpoint routers
 api_router.include_router(chat.router)

@@ -15,7 +15,7 @@ async def lifespan(app: FastAPI):
     print("🚀 Starting Insurance Policy Summarization API...")
     model_manager.load_model()
     
-    print(f"✨ API ready at http://localhost:8001")
+    print(f"✨ API ready at http://localhost:8001/api/v1")
     print(f"📚 Docs available at http://localhost:8001/docs")
     
     yield
@@ -27,7 +27,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.API_TITLE,
     version=settings.API_VERSION,
-    description="Production-ready API for insurance policy document analysis with chat context.",
+    description="Production-ready API for offline text generation with PDF context.",
     lifespan=lifespan
 )
 

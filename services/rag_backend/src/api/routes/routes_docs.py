@@ -6,13 +6,13 @@ from fastapi import APIRouter, HTTPException, UploadFile, File
 from src.services.pdf_processor import PDFProcessor
 from src.services.vector_store import VectorStore
 from src.core.logger import get_logger
+from src.core.config import UPLOAD_DIR
 
 logger = get_logger(__name__)
 router = APIRouter()
 pdf_processor = PDFProcessor()
 vector_store = VectorStore()
 
-UPLOAD_DIR = Path("uploaded_files")
 UPLOAD_DIR.mkdir(exist_ok=True)
 
 @router.post("/upload")

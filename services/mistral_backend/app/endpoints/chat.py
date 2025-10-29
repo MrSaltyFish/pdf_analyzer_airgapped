@@ -148,3 +148,37 @@ async def chat_with_policy(request: ChatRequest):
     except Exception as e:
         print(f"Inference Error: {e}")
         raise HTTPException(status_code=500, detail=f"Model inference failed: {e}")
+    
+
+@router.post("/chat/simple")
+async def simple_chat(request: dict):
+    """
+    Minimal, stateless RAG chat endpoint.
+    Input: {"query": "..."}
+    Output: {"response": "...", "processing_time_ms": ...}
+    """
+
+    if not model_manager.model:
+        raise HTTPException(status_code=503, detail="Model not loaded")
+
+    query = request.get("query")
+    if not query:
+        raise HTTPException(status_code=400, detail="Missing 'query'")
+
+    start_time = time.time()
+
+    # --- Generate Prompt (use session-based RAG context or defaults) ---
+    prompt = model_manager.create_chat_prompt("", query, [], "default")
+
+    try:
+        result = model_manager.generate(prompt, settings.TEMPERATURE, settings.MAX_TOKENS, stream=False)
+        response_text = result["choices"][0]["text"].strip()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Model inference failed: {e}")
+
+    processing_time = round((time.time() - start_time) * 1000, 2)
+
+    return {
+        "response": response_text,
+        "processing_time_ms": processing_time
+    }
